@@ -10,7 +10,7 @@
         window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
       );
     </script>
-    {{ $css := resources.Get "css/main.css" | css.PostCSS }}
+    {{ $css := resources.Get "css/main.css" }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   </head>
   <body class="min-h-screen flex items-center justify-center bg-base-200">
