@@ -1,0 +1,8 @@
+baseURL = 'https://gem.coop/'
+languageCode = 'en-us'
+title = 'gem.coop'
+disableKinds = ['taxonomy', 'term']
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
