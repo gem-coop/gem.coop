@@ -1627,6 +1627,10 @@ a {
   text-decoration: underline;
 }
 
+pre {
+  padding: 1em;
+}
+
 .container {
   width: 100%;
   max-width: 600px;
