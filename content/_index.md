@@ -13,7 +13,7 @@ All gems published to [RubyGems.org](https://rubygems.org/) are available, updat
 +source "https://gem.coop"
 ```
 
-Governance for this project is modeled on [Homebrew](https://brew.sh/), with setup assistance from [Mike McQuaid](https://github.com/MikeMcQuaid), and will be published next week. Everyone from the Ruby community is welcome to contribute and participate.
+Governance for this project is modeled on [Homebrew](https://brew.sh/), with setup assistance from [Mike McQuaid](https://github.com/MikeMcQuaid), and will be published on or before October 10. Everyone from the Ruby community is welcome to contribute and participate.
 
 If you want to follow along with our progress, subscribe to the gem.coop newsletter for monthly updates.
 
