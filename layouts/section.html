@@ -1,9 +1,12 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <h1 class="card-title text-2xl">{{ .Title }}</h1>
   {{ .Content }}
 
   {{ $pages := where .Site.RegularPages "Section" "in" .Site.MainSections }}
   {{ range $pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  <h2>
+    <small>{{ .Date | time.Format ":date_medium" }}</small>
+    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  </h2>
   {{ end }}
 {{ end }}
