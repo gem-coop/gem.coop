@@ -1704,6 +1704,11 @@ pre {
   display: none;
 }
 
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 @media (max-width: 600px) {
   .coming-soon h1 {
     font-size: 2rem;
