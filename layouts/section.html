@@ -1,9 +1,9 @@
 {{ define "main" }}
-  <p>section index main</p>
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
+
+  {{ $pages := where .Site.RegularPages "Section" "in" .Site.MainSections }}
+  {{ range $pages }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
   {{ end }}
 {{ end }}
-<p>after section index main</p>

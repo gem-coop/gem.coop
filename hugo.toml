@@ -3,6 +3,14 @@ languageCode = 'en-us'
 title = 'gem.coop'
 disableKinds = ['taxonomy', 'term']
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html']
+
+[services]
+  [services.rss]
+    limit = 50
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

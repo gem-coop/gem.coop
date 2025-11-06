@@ -16,7 +16,7 @@
     {{ $css := resources.Get "css/main.css" }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   </head>
-  <body>
+  <body class="min-h-screen min-w-screen h-full w-full flex items-center justify-center bg-base-200">
     <main>
       {{ block "main" . }}
         This will be replaced with content from the
