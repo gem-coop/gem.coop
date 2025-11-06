@@ -1709,6 +1709,12 @@ ul {
   list-style-position: inside;
 }
 
+h2 {
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 @media (max-width: 600px) {
   .coming-soon h1 {
     font-size: 2rem;
