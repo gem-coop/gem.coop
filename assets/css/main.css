@@ -1729,4 +1729,19 @@ h2 {
   }
 }
 
+nav ul {
+  list-style: none;
+}
 
+nav li {
+  display: inline-block;
+}
+
+nav li:before {
+  /* \a0 is a non-breaking space. */
+  content: '\a0|\a0';
+}
+
+nav li:first-child:before {
+  content: '';
+}
