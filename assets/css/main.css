@@ -1729,6 +1729,10 @@ h2 {
   }
 }
 
+nav {
+  margin-bottom: 2em;
+}
+
 nav ul {
   list-style: none;
 }
