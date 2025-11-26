@@ -7,6 +7,10 @@ disableKinds = ['taxonomy', 'term']
   home = ['html', 'rss']
   section = ['html']
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
 [services]
   [services.rss]
     limit = 50
