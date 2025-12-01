@@ -16,7 +16,11 @@ I'm happy to announce the **Gem Fellowship**, a grant partnership with [gem.coop
 * The maximum award for a single project is $25,000.
 * A minimum of 5 different projects will be funded.
 
-# [Apply for a Gem Fellowship](https://forms.gle/mJHQaBgidpCq5nFa6)
+<h1 class="card-title text-2xl">
+
+[Apply for a Gem Fellowship](https://forms.gle/mJHQaBgidpCq5nFa6)
+
+</h1>
 
 ## FAQ
 
