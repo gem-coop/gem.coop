@@ -48,6 +48,6 @@ A. Yes, but we need to be able to pay you somehow.
 If your proposal is accepted, we'll be in touch regarding payment.
 If there are payment concerns, please note any issues in your proposal.
 
-Q. Who's deciding?
+Q. Who's deciding?  
 A. Mike Perham, David Rodrígeuz, Josef Šimánek, Martin Emde, and Ellen Marie Dash are the five who will judge.
 All are long-time open source contributors to the Ruby community.
