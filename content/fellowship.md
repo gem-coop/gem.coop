@@ -17,9 +17,7 @@ I'm happy to announce the **Gem Fellowship**, a grant partnership with [gem.coop
 * A minimum of 5 different projects will be funded.
 
 <h1 class="card-title text-2xl">
-
-[Apply for a Gem Fellowship](https://forms.gle/mJHQaBgidpCq5nFa6)
-
+Applications are now closed for 2026
 </h1>
 
 ## FAQ
