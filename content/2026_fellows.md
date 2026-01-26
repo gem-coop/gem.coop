@@ -52,7 +52,10 @@ The project is undergoing a major architectural overhaul to leverage modern Ruby
 
 3. **James Couball** [https://github.com/ruby-git/ruby-git](https://github.com/ruby-git/ruby-git)
 
-git is the foundation for all open source today and having a well-maintained library to work with it is critical for Ruby.
+`ruby-git` provides a Ruby interface to the git command line.
+The current codebase, while functional, has several design issues that have accrued over time, making it difficult to extend and maintain.
+The goal of this project is to refactor the codebase so it can better evolve with the git command itself.
+See our [Architecture Redesign Implementation Plan](https://github.com/ruby-git/ruby-git/blob/main/redesign/3_architecture_implementation.md).
 
 4. **Piotr Murach** [https://github.com/piotrmurach/tty-markdown](https://github.com/piotrmurach/tty-markdown)
 
