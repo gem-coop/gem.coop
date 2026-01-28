@@ -68,12 +68,16 @@ We're happy to support his work.
 
 6. **Marco Roth**	[https://herb-tools.dev](https://herb-tools.dev)
 
-Herb took the Ruby world by storm in 2025, really improving the quality of front-end tooling for writing and maintaining ERB templates.
+Herb is an HTML-aware ERB parser and tooling foundation that treats HTML+ERB as a structured language rather than plain text.
+It provides a lossless syntax tree that enables reliable formatters, linters, language servers, and more advanced rendering and developer tooling in the Ruby ecosystem.
+
+This grant will be used to stabilize Herb towards a [1.0-ready tooling and language foundation](https://github.com/marcoroth/herb/milestone/1) for Ruby, with a focus on backwards compatibility.
+It will also lay the groundwork for exploring reactivity support in the rendering engine.
 
 7. **Dmitry Vorotilin**	[Cuprite](https://github.com/rubycdp/cuprite/issues/307), [Ferrum](https://github.com/rubycdp/ferrum/issues/557)
 
-Dmitry is the creator of Ferrum and Cuprite, a Ruby bridge to modern headless Chrome and the Capybara driver powering reliable browser-based testing.
-His goal is to ship Ferrum 1.0 with a stable, clean API and make Cuprite fully compatible so every Capybara test suite runs green on a fast, modern browser stack.
+Ferrum and Cuprite provide a Ruby bridge to modern headless Chrome and the Capybara driver powering reliable browser-based testing.
+With this grant, Dmitry aims to ship Ferrum 1.0 with a stable, clean API and make Cuprite fully compatible so every Capybara test suite runs green on a fast, modern browser stack.
 
 8. **Jared White** [https://www.bridgetownrb.com](https://www.bridgetownrb.com)
 
