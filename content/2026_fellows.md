@@ -72,11 +72,13 @@ Herb took the Ruby world by storm in 2025, really improving the quality of front
 
 7. **Dmitry Vorotilin**	[Cuprite](https://github.com/rubycdp/cuprite/issues/307), [Ferrum](https://github.com/rubycdp/ferrum/issues/557)
 
-I’m the creator of Ferrum and Cuprite, a Ruby bridge to modern headless Chrome and the Capybara driver powering reliable browser-based testing. My goal is to ship Ferrum 1.0 with a stable, clean API and make Cuprite fully compatible so every Capybara test suite runs green on a fast, modern browser stack.
+Dmitry is the creator of Ferrum and Cuprite, a Ruby bridge to modern headless Chrome and the Capybara driver powering reliable browser-based testing.
+His goal is to ship Ferrum 1.0 with a stable, clean API and make Cuprite fully compatible so every Capybara test suite runs green on a fast, modern browser stack.
 
 8. **Jared White** [https://www.bridgetownrb.com](https://www.bridgetownrb.com)
 
-Bridgetown is a content-focused, "hybrid" web framework supporting both static deploys and full-stack applications. We're ready to take things to the next level with two initiatives: an official plugin program called [Bridgetown Center](https://github.com/bridgetownrb/bridgetown/issues/1076) inspired by GNOME Circle, and a high-quality customizable theme called [Willamette](https://codeberg.org/bridgetownrb/willamette/issues/1) suitable for documentation, publishing, and portfolios.
+Bridgetown is a content-focused, "hybrid" web framework supporting both static deploys and full-stack applications.
+We're ready to take things to the next level with two initiatives: an official plugin program called [Bridgetown Center](https://github.com/bridgetownrb/bridgetown/issues/1076) inspired by GNOME Circle, and a high-quality customizable theme called [Willamette](https://codeberg.org/bridgetownrb/willamette/issues/1) suitable for documentation, publishing, and portfolios.
 
 Congratulations to our 2026 Gem Fellowship winners!
 
