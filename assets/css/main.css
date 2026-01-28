@@ -161,4 +161,8 @@ form button:active:hover, form button:active:focus {
     color: white;
   }
 
+  header a,
+  header a:visited {
+    color: black;
+  }
 }
