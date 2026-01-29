@@ -53,7 +53,7 @@ nav ul li {
 }
 nav ul li:not(:last-child):after {
   content: '|';
-  padding: 0 6px;
+  padding: 0 10px;
 }
 
 /* Main ********************************/
