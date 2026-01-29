@@ -33,7 +33,7 @@ I've been working with [gem.coop](https://gem.coop) to select the highest value 
   <li><img src="/img/fellows/2026-emil.png">
   <li><img src="/img/fellows/2026-james.jpg">
   <li><img src="/img/fellows/2026-piotr.jpg">
-  <li><img src="/img/fellows/2026-chris.jpg">
+  <li><img src="/img/fellows/2026-chris.png">
   <li><img src="/img/fellows/2026-marco.jpg">
   <li><img src="/img/fellows/2026-dmitry.jpg">
   <li><img src="/img/fellows/2026-jared.jpg">
@@ -64,7 +64,7 @@ TTY::Markdown transforms Markdown content into an easy-to-read format for displa
 5. **Christoph Olszowka** [https://www.ruby-toolbox.com/](https://www.ruby-toolbox.com/)
 
 Christoph is the long-time author and maintainer of SimpleCov and Ruby Toolbox.
-We're happy to support his work.
+This grant will support [ongoing maintenance](https://github.com/orgs/rubytoolbox/projects/3/views/1?pane=info) for his projects.
 
 6. **Marco Roth**	[https://herb-tools.dev](https://herb-tools.dev)
 
