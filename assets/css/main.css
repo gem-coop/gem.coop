@@ -133,7 +133,7 @@ form button:active:hover, form button:active:focus {
 /* Dark Mode ********************************/
 @media(prefers-color-scheme: dark) {
   body {
-    background: black;
+    background: #191e24;
   }
 
   main {
