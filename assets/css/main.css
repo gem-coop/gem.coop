@@ -144,7 +144,4 @@ form button:active:hover, form button:active:focus {
     color: white;
   }
 
-  pre {
-    background-color: black !important;
-  }
 }
