@@ -74,6 +74,8 @@ form label {
 }
 form input[type="email"] {
   appearance: none;
+  background: inherit;
+  font-size: inherit;
   border: 1px solid;
   border-radius: 0.5rem;
   height: 3rem;
