@@ -3,22 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark">
     <title>{{ .Site.Title }}</title>
     {{- with .OutputFormats.Get "rss" }}
     {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
     {{- end }}
-    <script>
-      document.documentElement.setAttribute(
-        'data-theme',
-        window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-      );
-    </script>
     {{ $css := resources.Get "css/main.css" }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   </head>
-  <body class="min-h-screen min-w-screen h-full w-full flex items-start justify-center bg-base-200">
-    <main class="card card-bordered card-normal w-full max-w-[800px] mx-auto p-6 bg-base-100">
-      <nav class="flex items-center">
+  <body>
+    <main>
+      <nav>
         <img width="100" src="/logo.png" alt="gem.coop logo" style="margin-right: 1em;">
         <ul>
           <li><a href="/">Home</a></li><!--
