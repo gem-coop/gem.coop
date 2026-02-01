@@ -1,5 +1,6 @@
 ---
 title: "the gem fellowship"
+date: "2025-11-20"
 ---
 
 From guest author, Mike Perham (@mperham), creator and maintainer of Sidekiq.
