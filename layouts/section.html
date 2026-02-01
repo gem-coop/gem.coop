@@ -2,7 +2,7 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
 
-  {{ $pages := where .Site.RegularPages "Section" "in" .Site.MainSections }}
+  {{ $pages := .CurrentSection.RegularPages }}
   {{ range $pages }}
   <h2>
     <small>{{ .Date | time.Format ":date_medium" }}</small>
