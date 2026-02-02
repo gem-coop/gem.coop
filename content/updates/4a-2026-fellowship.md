@@ -1,10 +1,7 @@
 ---
-title: "Announcing the 2026 Gem Fellowship"
-date: 2026-01-19T09:44:46-08:00
-publishdate: 2026-01-19
-lastmod: 2026-01-19
-tags: []
-draft: true
+title: "announcing the 2026 Gem Fellowship"
+date: 2026-02-02T09:44:46+08:00
+slug: "2026-fellowship"
 ---
 
 Last month I announced my latest venture to support the Ruby open source community: the [Gem Fellowship](https://gem.coop/fellowship).
@@ -29,14 +26,14 @@ I've been working with [gem.coop](https://gem.coop) to select the highest value 
 </style>
 
 <ul class="fellow-headshots">
-  <li><img src="/img/fellows/2026-jneen.png">
-  <li><img src="/img/fellows/2026-emil.png">
-  <li><img src="/img/fellows/2026-james.jpg">
-  <li><img src="/img/fellows/2026-piotr.jpg">
-  <li><img src="/img/fellows/2026-chris.png">
-  <li><img src="/img/fellows/2026-marco.jpg">
-  <li><img src="/img/fellows/2026-dmitry.jpg">
-  <li><img src="/img/fellows/2026-jared.jpg">
+  <li><img src="fellows/2026-jneen.png">
+  <li><img src="fellows/2026-emil.png">
+  <li><img src="fellows/2026-james.jpg">
+  <li><img src="fellows/2026-piotr.jpg">
+  <li><img src="fellows/2026-chris.png">
+  <li><img src="fellows/2026-marco.jpg">
+  <li><img src="fellows/2026-dmitry.jpg">
+  <li><img src="fellows/2026-jared.jpg">
 </ul>
 
 1. **Jeanine Adkisson**	[https://github.com/rouge-ruby/rouge](https://github.com/rouge-ruby/rouge/milestone/3)
@@ -88,7 +85,7 @@ Congratulations to our 2026 Gem Fellowship winners!
 
 <div style="float: right; padding: 20px;">
   <a href="https://gem.coop">
-    <img src="/img/2026.png" width="240" alt="Winners" license="Creative Commons Attribution-ShareAlike 2.5">
+    <img src="2026.png" width="240" alt="Winners" license="Creative Commons Attribution-ShareAlike 2.5">
   </a>
 </div>
 

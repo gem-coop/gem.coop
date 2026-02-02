@@ -1,6 +1,7 @@
 ---
 title: "the gem fellowship"
 date: "2025-11-20"
+slug: "gem-fellowship"
 ---
 
 From guest author, Mike Perham (@mperham), creator and maintainer of Sidekiq.
@@ -16,10 +17,6 @@ I'm happy to announce the **Gem Fellowship**, a grant partnership with [gem.coop
 * Grants will be awarded in increments of $2,500.
 * The maximum award for a single project is $25,000.
 * A minimum of 5 different projects will be funded.
-
-<h1 class="card-title text-2xl">
-Applications are now closed for 2026
-</h1>
 
 ## FAQ
 
@@ -48,5 +45,4 @@ If your proposal is accepted, we'll be in touch regarding payment.
 If there are payment concerns, please note any issues in your proposal.
 
 Q. Who's deciding?  
-A. Mike Perham, David Rodrígeuz, Josef Šimánek, Martin Emde, and Ellen Marie Dash are the five who will judge.
-All are long-time open source contributors to the Ruby community.
+A. Mike Perham, David Rodrígeuz, Josef Šimánek, Martin Emde, and Ellen Marie Dash are the five who will judge. All are long-time open source contributors to the Ruby community.
