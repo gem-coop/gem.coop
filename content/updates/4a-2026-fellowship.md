@@ -26,7 +26,7 @@ I've been working with [gem.coop](https://gem.coop) to select the highest value 
 </style>
 
 <ul class="fellow-headshots">
-  <li><img src="fellows/2026-jneen.png">
+  <li><img src="fellows/2026-jeanine.png">
   <li><img src="fellows/2026-emil.png">
   <li><img src="fellows/2026-james.jpg">
   <li><img src="fellows/2026-piotr.jpg">
