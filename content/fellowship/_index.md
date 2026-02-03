@@ -4,7 +4,7 @@ Each year, individual Ruby developers can submit applications during the month o
 
 ## Gem Fellowship 2026
 
-Read [the Gem Fellowship announcement](/updates/gem-fellowship), then [about the 2026 Gem Fellows](/updates/6).
+Read [the Gem Fellowship announcement](/updates/gem-fellowship), then [about the 2026 Gem Fellows](/updates/2026-fellowship/).
 
 ## Gem Fellowship 2027
 
