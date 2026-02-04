@@ -25,7 +25,7 @@ Cooldowns are a useful tool to increase security. We wrote more about our reason
 
 ### Give us feedback
 
-Join us in [discussions on GitHub](https://github.com/gem-coop/gem.coop/discussions/), or [join the Bundler Slack](https://join.slack.com/t/bundler/shared_invite/zt-3gzoadr40-Uk0Q4jfNWw6938TZpV9Okw) and chat with us in the [#gem-coop](https://slack.com/archives/C09JU5AP8J2) channel.
+Join us in [discussions on GitHub](https://github.com/gem-coop/gem.coop/discussions/), or [join the Bundler Slack](https://join.slack.com/t/bundler/shared_invite/zt-3p7sars9h-kLCLllWwmc_gV9OqaCbBpw) and chat with us in the [#gem-coop](https://slack.com/archives/C09JU5AP8J2) channel.
 
 ### I found a bug!
 
