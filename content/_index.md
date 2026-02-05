@@ -17,4 +17,4 @@ If you want to follow along with our progress, subscribe to the gem.coop newslet
 
 Our goal is to provide fast, community-owned, transparent, sustainable, and secure gem hosting for everyone. We’re launching with support for bundling and installing all public gems, and we’re excited to keep improving.
 
-— The Gem Cooperative ([@deivid-rodriguez](https://github.com/deivid-rodriguez), [@duckinator](https://github.com/duckinator), [@indirect](https://github.com/indirect), [@martinemde](https://github.com/martinemde), [@segiddins](https://github.com/segiddins), [@simi](https://github.com/simi))
+— The Gem Cooperative ([@deivid-rodriguez](https://github.com/deivid-rodriguez), [@duckinator](https://github.com/duckinator), [@indirect](https://github.com/indirect), [@kaspth](https://github.com/kaspth), [@martinemde](https://github.com/martinemde), [@olleolleolle](https://github.com/olleolleolle), [@segiddins](https://github.com/segiddins), [@simi](https://github.com/simi))
