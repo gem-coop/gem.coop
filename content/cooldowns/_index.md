@@ -2,7 +2,7 @@
 title: "gem cooldowns (beta)"
 ---
 
-### Get started 
+### Get started
 
 To use gem cooldowns, change your gem source URL:
 
