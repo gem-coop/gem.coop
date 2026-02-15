@@ -21,7 +21,7 @@ The gem.coop public cooldown server hides gems until they have been published fo
 
 ### Why did you make this?
 
-Cooldowns are a useful tool to increase security. We wrote more about our reasons in the [cooldowns release announcement](/updates/4#whats-a-cooldown).
+Cooldowns are a useful tool to increase security. We wrote more about our reasons in the [cooldowns release announcement](/updates/4/#whats-a-cooldown).
 
 ### Give us feedback
 
