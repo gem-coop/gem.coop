@@ -1,4 +1,6 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 /* Defaults ********************************/
 body {
@@ -17,7 +19,8 @@ p {
   margin: 1em 0;
 }
 
-a,a:visited {
+a,
+a:visited {
   color: #18181b;
 }
 
@@ -26,14 +29,20 @@ pre {
   padding: 1em;
 }
 
-pre, code {
+pre,
+code {
   font-feature-settings: normal;
   font-size: 1rem;
   font-variation-settings: normal;
 }
 
+:not(pre)>code {
+  background-color: #DDD;
+  padding: 2px 5px;
+}
+
 button {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier", monospace;
 }
 
 header {
@@ -51,15 +60,18 @@ nav {
   display: flex;
   margin-bottom: 2em;
 }
+
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 nav ul li {
   display: inline-block;
   margin: 0;
 }
+
 nav ul li:not(:last-child):after {
   content: '|';
   padding: 0 10px;
@@ -77,16 +89,19 @@ main {
 
 /* Form **********************************/
 hr {
-  margin: 2rem 0;
+  margin: 4rem 0 2rem 0;
 }
+
 form {
   margin: 2rem 0;
 }
+
 form label {
   display: block;
   font-size: 0.875rem;
   padding: 0.5rem 0.25rem;
 }
+
 form input[type="email"] {
   appearance: none;
   background: inherit;
@@ -100,6 +115,7 @@ form input[type="email"] {
   padding-right: 1rem;
   width: 100%;
 }
+
 form button {
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -123,10 +139,14 @@ form button {
   user-select: none;
   width: 100%;
 }
-form button:hover, form button:focus {
+
+form button:hover,
+form button:focus {
   background-color: #85C800;
 }
-form button:active:hover, form button:active:focus {
+
+form button:active:hover,
+form button:active:focus {
   animation: button-pop 0s ease-out;
   transform: scale(0.97);
 }
@@ -137,6 +157,7 @@ form button:active:hover, form button:active:focus {
     align-items: baseline;
     flex-direction: column;
   }
+
   nav img {
     margin: 1em 0;
   }
@@ -157,12 +178,17 @@ form button:active:hover, form button:active:focus {
     background: #1d232a;
   }
 
-  a, a:visited {
+  a,
+  a:visited {
     color: white;
   }
 
   header a,
   header a:visited {
     color: black;
+  }
+
+  :not(pre)>code {
+    background-color: #555;
   }
 }

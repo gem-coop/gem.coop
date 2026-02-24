@@ -1,41 +1,57 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark">
 
-    <title>{{ .Site.Title }}</title>
-    {{ partial "opengraph.html" . }}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
 
-    {{- with .OutputFormats.Get "rss" }}
-    {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
-    {{- end }}
-    {{ $css := resources.Get "css/main.css" }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  </head>
-  <body>
-    <header>
-      <b>NEW!</b> <a href="/cooldowns/">stop supply chain attacks with <b>dependency cooldowns</b>
-      </a>
-    </header>
-    <main>
-      <nav>
-        <img width="100" src="/logo.png" alt="gem.coop logo" style="margin-right: 1em;">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/updates/">Updates</a></li>
-          <li><a href="/cooldowns/">Cooldowns</a></li>
-          <li><a href="/fellowship/">Fellowship</a></li>
-          <li><a href="https://github.com/gem-coop/">GitHub</a></li>
-        </ul>
-      </nav>
+  <title>{{ .Site.Title }}</title>
+  {{ partial "opengraph.html" . }}
 
-      {{ block "main" . }}
-        This will be replaced with content from the
-        corresponding "define" action found in the template
-        to which this base template is applied.
-      {{ end }}
-    </main>
-  </body>
+  {{- with .OutputFormats.Get "rss" }}
+  {{ printf `
+  <link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+  {{- end }}
+  {{ $css := resources.Get "css/main.css" }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+
+<body>
+  <header>
+    <b>NEW!</b> <a href="/cooldowns/">stop supply chain attacks with <b>dependency cooldowns</b>
+    </a>
+  </header>
+  <main>
+    <nav>
+      <img width="100" src="/logo.png" alt="gem.coop logo" style="margin-right: 1em;">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/updates/">Updates</a></li>
+        <li><a href="/cooldowns/">Cooldowns</a></li>
+        <li><a href="/fellowship/">Fellowship</a></li>
+        <li><a href="https://github.com/gem-coop/">GitHub</a></li>
+      </ul>
+    </nav>
+
+    {{ block "main" . }}
+    This will be replaced with content from the
+    corresponding "define" action found in the template
+    to which this base template is applied.
+    {{ end }}
+
+    <hr>
+
+    <form action="https://buttondown.com/api/emails/embed-subscribe/gem-coop" method="post">
+      <label for="email">
+        <span>join the gem.coop newsletter</span>
+      </label>
+      <input id="email" name="email" type="email" placeholder="me@example.com" required />
+      <button type="submit">
+        Subscribe
+      </button>
+    </form>
+  </main>
+</body>
+
 </html>

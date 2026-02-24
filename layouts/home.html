@@ -1,27 +1,6 @@
 {{ define "main" }}
-  <h1 class="card-title text-2xl">{{ .Site.Title }}</h1>
+<h1 class="card-title text-2xl">{{ .Site.Title }}</h1>
 
-  {{ .Content }}
+{{ .Content }}
 
-  <hr />
-
-  <form
-    action="https://buttondown.com/api/emails/embed-subscribe/gem-coop"
-    method="post"
-    >
-    <label for="email">
-      <span>join the newsletter</span>
-    </label>
-    <input
-      id="email"
-      name="email"
-      type="email"
-      placeholder="me@example.com"
-      required
-      />
-    <button type="submit">
-      Subscribe
-    </button>
-  </form>
-</div>
 {{ end }}
