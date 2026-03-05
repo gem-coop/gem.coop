@@ -1,5 +1,10 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<h3>{{ .Date | time.Format ":date_medium" }}</h3>
+<h3>
+  {{ .Date | time.Format ":date_medium" }}
+  {{- if .Params.authors }}
+    <small>by {{ delimit .Params.authors ", " " and " }}</small>
+  {{- end -}}
+</h3>
 {{ .Content }}
 {{ end }}
