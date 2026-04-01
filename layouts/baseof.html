@@ -9,10 +9,7 @@
   <title>{{ .Site.Title }}</title>
   {{ partial "opengraph.html" . }}
 
-  {{- with .OutputFormats.Get "rss" }}
-  {{ printf `
-  <link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
-  {{- end }}
+  <link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}">
   {{ $css := resources.Get "css/main.css" }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 </head>
