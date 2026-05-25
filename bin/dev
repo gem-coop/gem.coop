@@ -1,0 +1,5 @@
+#!/bin/bash
+set -euo pipefail
+set -x
+
+hugo server --gc --buildDrafts --buildExpired --buildFuture --renderToMemory "$@"
