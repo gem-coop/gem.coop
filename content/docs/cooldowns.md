@@ -1,6 +1,7 @@
----
-title: "gem cooldowns (beta)"
----
++++
+title = "gem cooldowns (beta)"
+aliases = ["/cooldowns"]
++++
 
 ### Get started
 
@@ -9,6 +10,15 @@ To use gem cooldowns, change your gem source URL:
 ```diff
 - source "https://gem.coop"
 + source "https://beta.gem.coop/cooldown"
+```
+
+### For gem.coop Namespaces
+
+You can also add a cooldown to any existing gem.coop namespace, by adding `/cooldown` to the end of the url, like this:
+
+```diff
+- source "https://gem.coop/@gem-coop"
++ source "https://gem.coop/@gem-coop/cooldown"
 ```
 
 ### Cooldown period
