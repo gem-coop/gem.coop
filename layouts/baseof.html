@@ -55,14 +55,17 @@
                 <label for="email">
                     <span>join the gem.coop newsletter</span>
                 </label>
-                <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    placeholder="me@example.com"
-                    required
-                />
-                <button type="submit">Subscribe</button>
+                <div style="display: flex; gap: 1em">
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="me@example.com"
+                        required
+                        style="flex: 3"
+                    />
+                    <button type="submit" style="flex: 1">Subscribe</button>
+                </div>
             </form>
         </main>
     </body>
