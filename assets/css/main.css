@@ -152,6 +152,25 @@ form button:active:focus {
   transform: scale(0.97);
 }
 
+/* Footer */
+footer nav {
+  flex-direction: column;
+
+  ul {
+    display: flex;
+  }
+
+  ul li:first-child {
+    border: none;
+    padding-right: 0;
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
 /* Mobile ********************************/
 @media(max-width: 580px) {
   nav {
