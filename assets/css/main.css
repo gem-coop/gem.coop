@@ -57,6 +57,7 @@ header {
 /* Navigation ********************************/
 nav {
   align-items: center;
+  justify-content: space-between;
   display: flex;
   margin-bottom: 2em;
 }
