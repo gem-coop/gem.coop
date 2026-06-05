@@ -29,6 +29,7 @@ Whether your team is facing outages, project delays, or test suites run amok, Sp
 
 - [Honeybadger](https://honeybadger.io) provides error and exception tracking.
 - [DNSimple](https://dnsimple.com) provides domain name resolution.
+- [Jelly](https://letsjelly.com) provides team email collaboration ([referral link](https://app.letsjelly.com/signup?ref=gem-coop)).
 - [Honeycomb](https://honeycomb.io) provides observability and metrics.
 - [GitHub](https://github.com) provides repository hosting, CI runners.
 - [Slack](https://slack.com) provides team and community discussion. [Join us!](https://join.slack.com/t/bundler/shared_invite/zt-3kza12u0j-Fw3rwvPi6zqe6EC3RCDGMA)
