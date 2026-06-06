@@ -4,7 +4,7 @@ linktitle = "name disputes"
 date = "2026-06-04"
 +++
 
-Last Updated <%= last_updated %>
+Last Updated {{% date %}}
 
 This policy describes how gem.coop handles disputes about gem names, namespace names, publisher names, and other unique identifiers.  It also describes what you should do if you think someone else's use of one of these names infringes your trademark.
 

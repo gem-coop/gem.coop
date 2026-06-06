@@ -4,6 +4,8 @@ linktitle = "security policy"
 date = "2026-06-04"
 +++
 
+Last Updated {{% date %}}
+
 If you find a security issue with the gem.coop website or service, please report it to [security@gem<!-- don't spam us -->.coop](mailto:security%40%67%65%6d%2e%63%6f%6f%70).
 
 Let us know as soon as you can, and we will do our best to resolve the issue quickly.

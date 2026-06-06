@@ -4,6 +4,8 @@ linktitle = "code of conduct"
 date = "2026-06-04"
 +++
 
+Last Updated {{% date %}}
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our

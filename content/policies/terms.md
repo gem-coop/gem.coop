@@ -4,7 +4,7 @@ linktitle = "terms of service"
 date = "2026-06-04"
 +++
 
-Last Updated <%= last_updated %>
+Last Updated {{% date %}}
 
 These terms of service govern access to and use of the gem.coop Ruby programming language package repository and website at <https://gem.coop>.  To use gem.coop, you have to agree to these terms.
 

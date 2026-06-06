@@ -4,7 +4,7 @@ linktitle = "copyright disputes"
 date = "2026-06-04"
 +++
 
-Last Updated: <%= last_updated %>
+Last Updated {{% date %}}
 
 This policy describes how we respond to claims of copyright infringement by materials in our Ruby programming language package repository and website. In short, we follow the Digital Millennium Copyright Act, or DMCA.
 
