@@ -57,24 +57,26 @@ header {
 /* Navigation ********************************/
 nav {
   align-items: center;
+  justify-content: space-between;
   display: flex;
   margin-bottom: 2em;
 }
 
 nav ul {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  display: inline-block;
   margin: 0;
+  padding: 0 10px;
 }
 
-nav ul li:not(:last-child):after {
-  content: '|';
-  padding: 0 10px;
+nav ul li:not(:last-child) {
+  border-right: 1px solid;
+  border-color: #ffffffaa;
 }
 
 /* Main ********************************/
@@ -149,6 +151,25 @@ form button:active:hover,
 form button:active:focus {
   animation: button-pop 0s ease-out;
   transform: scale(0.97);
+}
+
+/* Footer */
+footer nav {
+  flex-direction: column;
+
+  ul {
+    display: flex;
+  }
+
+  ul li:first-child {
+    border: none;
+    padding-right: 0;
+
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
 }
 
 /* Mobile ********************************/

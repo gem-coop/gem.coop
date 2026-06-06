@@ -1,55 +1,95 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="color-scheme" content="light dark" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="color-scheme" content="light dark">
+        <title>{{ .Site.Title }}</title>
+        {{ partial "opengraph.html" . }} {{- with site.Home.OutputFormats.Get
+        "rss" }}
+        <link
+            rel="alternate"
+            type="{{ .MediaType.Type }}"
+            href="{{ .Permalink }}"
+            title="{{ site.Title }}"
+        />
+        {{- end }} {{ $css := resources.Get "css/main.css" }}
+        <link rel="stylesheet" href="{{ $css.RelPermalink }}" />
+    </head>
 
-  <title>{{ .Site.Title }}</title>
-  {{ partial "opengraph.html" . }}
+    <body>
+        <header>
+            <b>NEW!</b>
+            <a href="https://gem.coop/sign_up/"
+                >publish gems into your own dedicated <b>namespace</b></a
+            >
+        </header>
+        <main>
+            <nav>
+                <a href="/"
+                    ><img
+                        width="100"
+                        src="/logo.png"
+                        alt="gem.coop logo"
+                        style="margin-right: 1em"
+                /></a>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/updates/">Updates</a></li>
+                    <li><a href="/fellowship/">Fellowship</a></li>
+                    <li><a href="/sign_up">Sign Up</a></li>
+                </ul>
+            </nav>
 
-  {{- with site.Home.OutputFormats.Get "rss" }}
-  <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ site.Title }}">
-  {{- end }}
-  {{ $css := resources.Get "css/main.css" }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-</head>
+            {{ block "main" . }} This will be replaced with content from the
+            corresponding "define" action found in the template to which this
+            base template is applied. {{ end }}
 
-<body>
-  <header>
-    <b>NEW!</b> <a href="https://beta.gem.coop/sign_up/">publish gems into your own dedicated <b>namespace</b></a>
-  </header>
-  <main>
-    <nav>
-      <img width="100" src="/logo.png" alt="gem.coop logo" style="margin-right: 1em;">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/updates/">Updates</a></li>
-        <li><a href="/cooldowns/">Cooldowns</a></li>
-        <li><a href="/fellowship/">Fellowship</a></li>
-        <li><a href="https://github.com/gem-coop/">GitHub</a></li>
-      </ul>
-    </nav>
+            <hr />
 
-    {{ block "main" . }}
-    This will be replaced with content from the
-    corresponding "define" action found in the template
-    to which this base template is applied.
-    {{ end }}
+            <form
+                action="https://buttondown.com/api/emails/embed-subscribe/gem-coop"
+                method="post"
+                id="subscribe"
+            >
+                <label for="email">
+                    <span>join the gem.coop newsletter</span>
+                </label>
+                <div style="display: flex; gap: 1em">
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="me@example.com"
+                        required
+                        style="flex: 3"
+                    />
+                    <button type="submit" style="flex: 1">Subscribe</button>
+                </div>
+            </form>
 
-    <hr>
-
-    <form action="https://buttondown.com/api/emails/embed-subscribe/gem-coop" method="post">
-      <label for="email">
-        <span>join the gem.coop newsletter</span>
-      </label>
-      <input id="email" name="email" type="email" placeholder="me@example.com" required />
-      <button type="submit">
-        Subscribe
-      </button>
-    </form>
-  </main>
-</body>
-
+            <footer>
+                <nav>
+                    <ul>
+                        <li><a href="/about">about</a></li>
+                        <li><a href="/about/faq">faq</a></li>
+                        <li><a href="/about/roadmap">roadmap</a></li>
+                        <li><a href="/about/sponsors">sponsors</a></li>
+                        <li>
+                            <a href="https://github.com/gem-coop">github</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li><a href="/policies">policies</a></li>
+                        <li><a href="/policies/security">security</a></li>
+                        <li><a href="/policies/conduct">conduct</a></li>
+                        <li><a href="/policies/dmca">dmca</a></li>
+                        <li><a href="/policies/terms">terms</a></li>
+                        <li><a href="/policies/names">names</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </main>
+    </body>
 </html>
