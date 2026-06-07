@@ -76,7 +76,7 @@ nav ul li {
 
 nav ul li:not(:last-child) {
   border-right: 1px solid;
-  border-color: #ffffffaa;
+  border-color: light-dark(#191e24, #ffffffaa);
 }
 
 /* Main ********************************/
