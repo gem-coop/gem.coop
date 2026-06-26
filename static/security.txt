@@ -1,0 +1,3 @@
+Contact: mailto:security@gem.coop
+Expires: 2027-06-26T20:30:00.000Z
+Policy: https://gem.coop/policies/security
