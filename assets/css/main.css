@@ -5,7 +5,9 @@
 /* Defaults ********************************/
 body {
   background: #f8f8f8;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier New", monospace;
   line-height: 1.6;
   margin: 0;
 }
@@ -36,13 +38,15 @@ code {
   font-variation-settings: normal;
 }
 
-:not(pre)>code {
-  background-color: #DDD;
+:not(pre) > code {
+  background-color: #ddd;
   padding: 2px 5px;
 }
 
 button {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier", monospace;
+  font-family:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+    "Courier", monospace;
 }
 
 header {
@@ -52,6 +56,22 @@ header {
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
+}
+
+table {
+  table-layout: fixed;
+  font-size: 85%;
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.6em;
+}
+
+td {
+  border: 1px solid #ddd;
 }
 
 /* Navigation ********************************/
@@ -124,7 +144,10 @@ form button {
   background-color: #99e600;
   border: 0;
   border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  box-shadow:
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
   color: black;
   cursor: pointer;
   font-size: 0.875rem;
@@ -136,7 +159,8 @@ form button {
   text-align: center;
   text-decoration-line: none;
   transition-duration: 200ms;
-  transition-property: color, background-color, border-color, opacity, box-shadow, transform;
+  transition-property:
+    color, background-color, border-color, opacity, box-shadow, transform;
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
   user-select: none;
   width: 100%;
@@ -144,7 +168,7 @@ form button {
 
 form button:hover,
 form button:focus {
-  background-color: #85C800;
+  background-color: #85c800;
 }
 
 form button:active:hover,
@@ -173,7 +197,7 @@ footer nav {
 }
 
 /* Mobile ********************************/
-@media(max-width: 580px) {
+@media (max-width: 580px) {
   nav {
     align-items: baseline;
     flex-direction: column;
@@ -190,7 +214,7 @@ footer nav {
 }
 
 /* Dark Mode ********************************/
-@media(prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   body {
     background: #191e24;
   }
@@ -209,7 +233,7 @@ footer nav {
     color: black;
   }
 
-  :not(pre)>code {
+  :not(pre) > code {
     background-color: #555;
   }
 }
