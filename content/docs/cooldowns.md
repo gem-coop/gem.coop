@@ -23,7 +23,7 @@ You can also add a cooldown to any existing gem.coop namespace, by adding `/cool
 
 ### Cooldown period
 
-The gem.coop public cooldown server hides gems until they have been published for 48 hours. If you need a different amount of time, [let's talk](mailto:hello@gem.coop).
+The gem.coop public cooldown server hides gems until they have been published for 48 hours. If you need a different amount of time, [let's talk](mailto:hello%40%67%65%6d%2e%63%6f%6f%70).
 
 ### Why use cooldowns?
 
