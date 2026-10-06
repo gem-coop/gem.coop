@@ -1,4 +1,6 @@
-## Sponsor the Gem Fellowship
++++
+title = "Sponsor the Gem Fellowship"
++++
 
 In 2026, we debuted [The Gem Fellowship](/updates/gem-fellowship), a program to sponsor vital development and maintenance work on Ruby open source projects that are widely used throughout the community. Each year, individual Ruby developers can submit their open source projects for funding.
 
