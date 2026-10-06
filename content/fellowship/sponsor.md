@@ -1,16 +1,15 @@
 +++
 title = "Sponsor the Gem Fellowship"
 +++
+In 2026, we debuted [The Gem Fellowship](/updates/gem-fellowship), a program to sponsor vital development and maintenance work on Ruby open source projects that are widely used throughout the community. Each year, individual Ruby developers can submit their open source projects for funding. In 2026, we funded 8 fellowships.
 
-In 2026, we debuted [The Gem Fellowship](/updates/gem-fellowship), a program to sponsor vital development and maintenance work on Ruby open source projects that are widely used throughout the community. Each year, individual Ruby developers can submit their open source projects for funding.
-
-We're looking for other companies to support this year's Gem Fellowship program, and aiming for 15 fellowships this year.
+We're looking for other companies to support this year's Gem Fellowship program, and aiming to fund 15 fellowships this year.
 
 ### Sponsorship levels
 
 - **$5,000** funds 1/2 of a fellowship, and gets you **listed as a sponsor** of this year's Fellowship.
-- **$50,000** funds 5 fellowships, and also includes **thanks in every Fellowship post** and update.
-- **$100,000** funds 10 fellowships, and also makes your company a **headline partner** in every Fellowship mention.
+- **$50,000** funds 5 fellowships. We will thank you by name and include **your logo in every Fellowship update**.
+- **$100,000** funds 10 fellowships, and makes your company a **headline partner**, thanked for making the Fellowship program possible whenever we talk about Gem Fellowships.
 
 ### How to sponsor
 
