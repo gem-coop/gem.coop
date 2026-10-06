@@ -8,7 +8,7 @@ Read [the Gem Fellowship announcement](/updates/gem-fellowship), then [about the
 
 ## Gem Fellowship 2027
 
-Applications will open on <b>December 1, 2026</b>.
+Your company can [sponsor the 2027 Fellowships](/fellowship/sponsor). Applications will open on <b>December 1, 2026</b>.
 
 ## FAQ
 
