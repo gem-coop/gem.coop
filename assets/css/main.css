@@ -26,6 +26,18 @@ a:visited {
   color: #18181b;
 }
 
+main img {
+  width: 100%;
+}
+
+main a > img {
+  text-decoration: none;
+  border: 2px solid transparent;
+  &:hover {
+    border-color: #000;
+  }
+}
+
 pre {
   overflow: auto;
   padding: 1em;
@@ -80,6 +92,10 @@ nav {
   justify-content: space-between;
   display: flex;
   margin-bottom: 2em;
+}
+
+nav img {
+  width: 100px;
 }
 
 nav ul {
