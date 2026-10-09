@@ -7,8 +7,8 @@ We're looking for other companies to support this year's Gem Fellowship program,
 
 ### Sponsorship prospectus (PDF)
 
-<a href="/gem-fellowship-prospectus-2026.pdf">
-  <img src="/gem-fellowship-prospectus-2026-cover.png">
+<a href="gem-fellowship-prospectus-2027.pdf">
+  <img src="gem-fellowship-prospectus-2027-cover.png">
 </a>
 
 ### Sponsorship levels
