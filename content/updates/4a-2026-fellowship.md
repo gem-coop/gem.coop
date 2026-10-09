@@ -36,7 +36,7 @@ I've been working with [gem.coop](https://gem.coop) to select the highest value 
   <li><img src="fellows/2026-jared.jpg">
 </ul>
 
-1. **Jeanine Adkisson**	[https://github.com/rouge-ruby/rouge](https://github.com/rouge-ruby/rouge/milestone/3)
+1. **Jeanine Adkisson**	[https://codeberg.org/rouge-ruby/rouge](https://codeberg.org/rouge-ruby/rouge)
 
 Rouge was created in a fit of rage by jneen in an attic somewhere in south England when her personal website broke due to a libpython linking error in pygments.rb, which was the gold standard of syntax highlighting at the time.
 It has since grown into a formidable project, supporting over 200 languages and powering the syntax highlighting of Jekyll, middleman, and Gitlab among others.
