@@ -5,6 +5,12 @@ In 2026, we debuted [The Gem Fellowship](/updates/gem-fellowship), a program to 
 
 We're looking for other companies to support this year's Gem Fellowship program, and aiming to fund 15 fellowships this year.
 
+### Sponsorship prospectus (PDF)
+
+<a href="/gem-fellowship-prospectus-2026.pdf">
+  <img src="/gem-fellowship-prospectus-2026-cover.png">
+</a>
+
 ### Sponsorship levels
 
 - **$5,000** funds 1/2 of a fellowship, and gets you **listed as a sponsor** of this year's Fellowship.
