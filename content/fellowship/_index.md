@@ -2,13 +2,17 @@
 
 Each year, individual Ruby developers can submit applications during the month of December, proposing projects for funding. In January, [gem.coop](https://gem.coop) members select proposals to fund with $2,500 to $25,000 USD.
 
-## Gem Fellowship 2026
+## Sponsor the Gem Fellowship for 2027
+
+[Learn more about sponsoring the 2027 Gem Fellowship](/fellowship/sponsor).
+
+## Apply to the Gem Fellowship for 2027
+
+Applications for Fellowships will open on <b>December 1, 2026</b>.
+
+## Gem Fellowships in 2026
 
 Read [the Gem Fellowship announcement](/updates/gem-fellowship), then [about the 2026 Gem Fellows](/updates/2026-fellowship/).
-
-## Gem Fellowship 2027
-
-Your company can [sponsor the 2027 Fellowships](/fellowship/sponsor). Applications will open on <b>December 1, 2026</b>.
 
 ## FAQ
 
