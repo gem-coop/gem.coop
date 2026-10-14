@@ -14,7 +14,7 @@ We're looking for other companies to support this year's Gem Fellowship program,
 ### Sponsorship levels
 
 - **$5,000** funds 1/2 of a fellowship, and gets you **listed as a sponsor** of this year's Fellowship.
-- **$50,000** funds 5 fellowships. We will thank you by name and include **your logo in every Fellowship update**.
+- **$20,000** funds 2 fellowships. We will thank you by name and include **your logo in every Fellowship update**.
 - **$100,000** funds 10 fellowships, and makes your company a **headline partner**, thanked for making the Fellowship program possible whenever we talk about Gem Fellowships.
 
 ### How to sponsor
