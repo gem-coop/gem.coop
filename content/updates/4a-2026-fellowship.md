@@ -2,6 +2,7 @@
 title: "announcing the 2026 Gem Fellowship"
 date: 2026-02-02T09:44:46+08:00
 slug: "2026-fellowship"
+aliases: ["/fellowship/2026"]
 ---
 
 Last month I announced my latest venture to support the Ruby open source community: the [Gem Fellowship](https://gem.coop/fellowship).

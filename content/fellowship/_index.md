@@ -1,3 +1,8 @@
++++
+title = "The Gem Fellowship"
+aliases = ["/fellowship/2027"]
++++
+
 **The Gem Fellowship** is a grant partnership between [gem.coop](https://gem.coop) and [Contributed Systems](https://contribsys.com), the company behind Sidekiq Pro and Sidekiq Enterprise.
 
 Each year, individual Ruby developers can submit applications during the month of December, proposing projects for funding. In January, [gem.coop](https://gem.coop) members select proposals to fund with $2,500 to $25,000 USD.
@@ -8,7 +13,7 @@ Each year, individual Ruby developers can submit applications during the month o
 
 ## Apply to the Gem Fellowship for 2027
 
-Applications for Fellowships will open on <b>December 1, 2026</b>.
+Applications for Fellowships in 2027 will open on <b>December 1, 2026</b>.
 
 ## Gem Fellowships in 2026
 
