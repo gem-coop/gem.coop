@@ -41,6 +41,26 @@
   {{- end }}
 {{- end }}
 
+{{/* Generate opengraph image */}}
+{{ $base := resources.Get "og_image.png" }}
+{{ $mediumFont := resources.Get "/Menlo-Regular.ttf"}}
+{{ $img := $base.Filter (images.Text .Page.Title (dict
+  "color" "#ffffff"
+  "size" 64
+  "linespacing" (mul 64 0.2 | int)
+  "x" 141
+  "y" 291
+  "font" $mediumFont
+))}}
+{{ $img = resources.Copy (path.Join .Page.RelPermalink "og.png") $img }}
+<meta property="og:image" content="{{$img.Permalink}}">
+<meta property="og:image:width" content="{{$img.Width}}" />
+<meta property="og:image:height" content="{{$img.Height}}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
+<meta name="twitter:image" content="{{$img.Permalink}}" />
+
 {{- with .Params.audio }}
   {{- range . | first 6  }}
     <meta property="og:audio" content="{{ . | absURL }}">
@@ -72,27 +92,3 @@
     {{- end }}
   {{- end }}
 {{- end }}
-
-{{/* Generate opengraph image */}}
-{{- if .IsPage -}}
-  {{ $base := resources.Get "og_image.png" }}
-  {{ $mediumFont := resources.Get "/Menlo-Regular.ttf"}}
-  {{ $img := $base.Filter (images.Text .Page.Title (dict
-    "color" "#ffffff"
-    "size" 64
-    "linespacing" (mul 64 0.2 | int)
-    "x" 141
-    "y" 291
-    "font" $mediumFont
-  ))}}
-  {{ $img = resources.Copy (path.Join .Page.RelPermalink "og.png") $img }}
-  <meta property="og:image" content="{{$img.Permalink}}">
-  <meta property="og:image:width" content="{{$img.Width}}" />
-  <meta property="og:image:height" content="{{$img.Height}}" />
-
-  <!-- Twitter metadata (used by other websites as well) -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-  <meta name="twitter:image" content="{{$img.Permalink}}" />
-{{ end }}
