@@ -35,31 +35,39 @@
   <meta property="og:type" content="website">
 {{- end }}
 
-{{- with partial "_funcs/get-page-images" . }}
-  {{- range . | first 6 }}
-    <meta property="og:image" content="{{ .Permalink }}">
-  {{- end }}
+{{- $imgs := partial "_funcs/get-page-images" . }}
+{{- if not $imgs }}
+  {{/* Generate opengraph image */}}
+  {{- $base := resources.Get "og_image.png" }}
+  {{- $mediumFont := resources.Get "/Menlo-Regular.ttf" }}
+  {{- $img := $base.Filter (images.Text .Page.Title (dict
+    "color" "#ffffff"
+    "size" 64
+    "linespacing" (mul 64 0.2 | int)
+    "x" 141
+    "y" 291
+    "font" $mediumFont
+  )) }}
+  {{- $img = resources.Copy (path.Join .Page.RelPermalink "og.png") $img }}
+  {{- $imgs = slice (dict "Image" $img "Permalink" $img.Permalink) }}
 {{- end }}
 
-{{/* Generate opengraph image */}}
-{{ $base := resources.Get "og_image.png" }}
-{{ $mediumFont := resources.Get "/Menlo-Regular.ttf"}}
-{{ $img := $base.Filter (images.Text .Page.Title (dict
-  "color" "#ffffff"
-  "size" 64
-  "linespacing" (mul 64 0.2 | int)
-  "x" 141
-  "y" 291
-  "font" $mediumFont
-))}}
-{{ $img = resources.Copy (path.Join .Page.RelPermalink "og.png") $img }}
-<meta property="og:image" content="{{$img.Permalink}}">
-<meta property="og:image:width" content="{{$img.Width}}" />
-<meta property="og:image:height" content="{{$img.Height}}" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-<meta name="twitter:image" content="{{$img.Permalink}}" />
+{{- range $imgs | first 6 }}
+  <meta property="og:image" content="{{ .Permalink }}">
+  {{- with .Image }}
+    {{- with .Width }}
+      <meta property="og:image:width" content="{{ . }}">
+    {{- end }}
+    {{- with .Height }}
+      <meta property="og:image:height" content="{{ . }}">
+    {{- end }}
+  {{- end }}
+  <meta name="twitter:image" content="{{ .Permalink }}">
+{{- end }}
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 
 {{- with .Params.audio }}
   {{- range . | first 6  }}
